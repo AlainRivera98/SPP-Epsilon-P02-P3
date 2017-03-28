@@ -106,7 +106,7 @@ public class SPPEpsilonP02P3 {
             x = solicitarDatos();
             //Evalúa si la x es menor a uno, y si lo es, asigna flag=false para repetir el ciclo
             if (x < 1) {
-                System.out.println("Introduzca un entero positivo(no hay longitudes negativas  o nulas de matrices)");
+                System.out.println("\nIntroduzca un entero positivo(no hay longitudes negativas  o nulas de matrices)");
                 flag=false;
             } else{
               flag=true;  
